@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justice League 2</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="img/Film..svg" alt="Logo : film" class="logo" />
+      <div class="logo-border"></div>
+      <div class="m-menu">
+        <input type="text" class="search-input" placeholder="Search" />
+        <nav class="navigation">
+          <a href="#footer" class="navigation-link">Movies</a>
+          <a href="#footer" class="navigation-link">TV</a>
+          <a href="#footer" class="navigation-link">News</a>
+          <a href="#footer" class="navigation-link">About</a>
+        </nav>
+        <div class="button-group">
+          <button class="button sign-up">Sign Up</button>
+          <button class="button login">Login</button>
+        </div>
+      </div>
+      <div class="mobile-buttons">
+        <button class="search-button">
+          <img src="./img/search-icon.svg" alt="search-icon" />
+        </button>
+        <button class="m-menu-button">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <section class="main">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="main-trailer">
+            <img src="./img/poster.jpeg" alt="poster" class="poster" />
+            <a
+              data-fancybox
+              href="https://www.youtube.com/watch?v=6v8Dl-6O5_g"
+              class="trailer-button"
+            >
+              <img
+                src="./img/play.svg"
+                alt="trailer-button-icon"
+                class="trailer-button-icon"
+              />
+              <span class="trailer-button-text">Watch Trailer</span>
+            </a>
+          </div>
+          <!-- /.main-trailer -->
+          <div class="main-title">
+            <h1 class="film-title">
+              Justice League: <br />
+              Zack Snyder's ver.
+            </h1>
+            <span class="film-sub-title">HBOMAX Justice League 2</span>
+            <p class="film-description">
+              The black and white image sees The Flash, Superman, Cyborg, Wonder
+              Woman, Batman and Aquaman gathered together. The&nbsp;title at the
+              bottom is revealed to be Zack Snyder's Justice League. The studio
+              is opting not to call it the "Snyder Cut." Rather, this title
+              leans into the idea that this will represent Snyder's vision.
+              Snyder then took to Twitter to&nbsp;share his excitement and
+              confirm "this is real" by sharing a poster for his cut of the
+              movie. It is simplistic, done in&nbsp; black and white with the
+              Justice League symbol at its center. In a statement, Snyder had
+              this to say.
+            </p>
+
+            <div class="about-film">
+              <div class="left-side">
+                <span class="about-text">
+                  <strong class="about-text-str">Producer</strong>
+                  <span class="about-text-reg">Zack Snyder</span>
+                </span>
+                <span class="about-text">
+                  <strong class="about-text-str">Scenario</strong>
+                  <span class="about-text-reg">Zack Snyder</span>
+                </span>
+                <span class="about-text">
+                  <strong class="about-text-str">Premiere</strong>
+                  <span class="about-text-reg">02.02.2021</span>
+                </span>
+              </div>
+              <div class="right-side">
+                <span class="about-text">
+                  <strong class="about-text-str">Budget</strong>
+                  <span class="about-text-reg">1 000 000$</span>
+                </span>
+                <span class="about-text">
+                  <strong class="about-text-str">Movie </strong>
+                  <span class="about-text-reg">SPPR</span>
+                </span>
+                <span class="about-text">
+                  <strong class="about-text-str">Release (World)</strong>
+                  <span class="about-text-reg">02.02.2021</span>
+                </span>
+              </div>
+            </div>
+            <!--/.about-film-->
+            <div class="rating">
+              <div class="score">95%</div>
+              <div class="rating-desc">
+                <h3 class="rating-title">Viewers Rating</h3>
+                <span class="rating-text"
+                  >Average Rating:
+                  <strong class="rating-text-bold">4,5/5</strong>
+                </span>
+                <span class="rating-text"
+                  >Total votes: <strong class="rating-text-bold">4 350</strong>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- /.main-title -->
+        </div>
+        <!-- /.main-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="cast">
+      <div class="container">
+        <div class="tabs">
+          <button class="actors-btn">
+            <h2 class="section-title active">Actors</h2>
+          </button>
+          <button class="creators-btn">
+            <h2 class="section-title">Creators</h2>
+          </button>
+        </div>
+        <!--./tabs-->
+        <div class="actors-tab">
+          <div class="card">
+            <img src="img/actors/1.jpeg" alt="Ben Affleck" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Ben Affleck</h3>
+              <span class="en-name">Batman</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img src="img/actors/2.jpeg" alt="Gal Gadot" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Gal Gadot</h3>
+              <span class="en-name">Wonder Woman</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img
+              src="img/actors/3.jpeg"
+              alt="Henry Cavill"
+              class="card-image"
+            />
+            <div class="card-text">
+              <h3 class="name">Henry Cavill</h3>
+              <span class="en-name">Superman</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img src="img/actors/4.jpeg" alt="Ezra Miller" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Ezra Miller</h3>
+              <span class="en-name">Flash</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img src="img/actors/5.jpeg" alt="Jason Momoa" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Jason Momoa</h3>
+              <span class="en-name">Aquaman</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img src="img/actors/6.jpeg" alt="Ray Fisher" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Ray Fisher</h3>
+              <span class="en-name">Cyborg</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img src="img/actors/7.jpeg" alt="Amy Adams" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Amy Adams</h3>
+              <span class="en-name">Lois Lane</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img src="img/actors/8.jpeg" alt="Amber Heard" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Amber Heard</h3>
+              <span class="en-name">Mera</span>
+            </div>
+          </div>
+          <!--/.card-->
+        </div>
+        <!--/.actors-content-->
+
+        <div class="creators-tab">
+          <div class="card">
+            <img src="img/actors/1.jpeg" alt="Ben Affleck" class="card-image" />
+            <div class="card-text">
+              <h3 class="name">Ben Affleck</h3>
+              <span class="en-name">Producer</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img
+              src="img/creators/2.jpeg"
+              alt="Fabian Wagner"
+              class="card-image"
+            />
+            <div class="card-text">
+              <h3 class="name">Fabian Wagner</h3>
+              <span class="en-name">Operator</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img
+              src="img/creators/3.jpeg"
+              alt="Chris Terrio"
+              class="card-image"
+            />
+            <div class="card-text">
+              <h3 class="name">Chris Terrio</h3>
+              <span class="en-name">Screenwriter</span>
+            </div>
+          </div>
+          <!--/.card-->
+
+          <div class="card">
+            <img
+              src="img/creators/4.jpeg"
+              alt="Ezra Miller"
+              class="card-image"
+            />
+            <div class="card-text">
+              <h3 class="name">Zack Snyder</h3>
+              <span class="en-name">Director</span>
+            </div>
+          </div>
+          <!--/.card-->
+        </div>
+        <!--/.creators-tabs-->
+      </div>
+      <!--/.container-->
+    </section>
+    <section class="news" id="footer">
+      <div class="container">
+        <h2 class="section-title section-news-title">
+          Latest News on this topic
+        </h2>
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="news-card">
+                <span class="news-date">May 20th 2020</span>
+                <h3 class="news-title">
+                  No more Superman and Batman?<br />Here what we know
+                </h3>
+              </div>
+              <!--/.news-card-->
+            </div>
+            <!--/.swiper-slide-->
+
+            <div class="swiper-slide">
+              <div class="news-card">
+                <span class="news-date">January 24th 2020</span>
+                <h3 class="news-title">
+                  The Flash movie still happening,<br />assures producer
+                </h3>
+              </div>
+              <!--/.news-card-->
+            </div>
+            <!--/.swiper-slide-->
+
+            <div class="swiper-slide">
+              <div class="news-card">
+                <span class="news-date">June 4th 2020</span>
+                <h3 class="news-title">
+                  Justice League's Zack Snyder hints Robin's death
+                </h3>
+              </div>
+              <!--/.news-card-->
+            </div>
+            <!--/.swiper-slide-->
+
+            <div class="swiper-slide">
+              <div class="news-card">
+                <span class="news-date">June 15th 2020</span>
+                <h3 class="news-title">
+                  Wonder Woman 1984 release news-date, trailer, cast<br />and
+                  everything you need to know
+                </h3>
+              </div>
+
+              <!--/.news-card-->
+            </div>
+            <!--/.swiper-slide-->
+
+            <div class="swiper-slide">
+              <div class="news-card">
+                <span class="news-date">July 1th 2020</span>
+                <h3 class="news-title">
+                  Justice League release news-date, trailer, cast
+                </h3>
+              </div>
+            </div>
+            <!--/.swiper-slide-->
+            <div class="swiper-slide">
+              <div class="news-card">
+                <span class="news-date">April 20th 2020</span>
+                <h3 class="news-title">
+                  Rick and Morty 5 season part Two release date
+                </h3>
+              </div>
+              <!--/.news-card-->
+            </div>
+            <!--/.swiper-slide-->
+          </div>
+          <!--/.swiper-wrapper-->
+          <button class="button-next">
+            <img src="img/arrow.svg" alt="arrow" />
+          </button>
+        </div>
+        <!--/.swiper-container-->
+      </div>
+    </section>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/swiper.min.js"></script>
+  </body>
+</html>
